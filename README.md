@@ -119,3 +119,106 @@ namespace Service
 
 ![image](https://user-images.githubusercontent.com/84138772/208531187-6082b996-efe7-4bd1-8094-9fda7d5375eb.png)
 
+
+## Partie 2 - Web API :
+
+### Les Entitées :
+
+#### Product :
+
+```C#
+using System.ComponentModel.DataAnnotations;
+public class Product
+{
+    [Key]
+    [Display(Name = "Product ID")]
+    public int ProductId { get; set; }
+    [Required, MinLength(6), MaxLength(25)]
+    [StringLength(70)]
+    public string? Designation { get; set; }
+    [Required, Range(100, 1000000)]
+    public double Price { get; set; }
+    public int CategoryID { get; set; }
+
+}
+
+```
+
+#### Category :
+
+```C#
+using System.ComponentModel.DataAnnotations;
+public class Category
+{
+    [Key]
+    [Required]
+    public int CategoryID { get; set; }
+    [Required]
+    [StringLength(35)]
+    public string? CategoryName { get; set; }
+    public virtual ICollection<Product>? Products { get; set; }
+
+    public Category(int Id, string Name)
+    {
+        this.CategoryID = Id;
+        this.CategoryName = Name;
+    }
+}
+
+```
+
+### Les services :
+
+#### ProductService :
+
+```C#
+public interface ProductService
+{
+    Product Save(Product p);
+    IEnumerable<Product> FindAll();
+    IEnumerable<Product> FindByDesignation(string mc);
+    Product GetOne(int ID);
+    void Update(Product p);
+    void Delete(int ID);
+    Category GetCategorie(Product p);
+}
+
+```
+
+### Controller :
+
+```C#
+using Microsoft.AspNetCore.Mvc;
+
+[ApiController]
+[Route("[controller]")]
+public class APIController : ControllerBase
+{
+    Dictionary<int, Category> categories = new Dictionary<int, Category>(){
+        {1, new Category(1, "Pcs")},
+        {2, new Category(2, "Phones")},
+    };
+    private readonly ILogger<APIController> _logger;
+    public APIController(ILogger<APIController> logger)
+    {
+        _logger = logger;
+    }
+
+    [HttpGet(Name = "GetProducts")]
+    public IEnumerable<Product> Get()
+    {
+        return Enumerable.Range(1, 5).Select(index => new Product
+        {
+            ProductId = (index),
+            Designation = "Product " + index,
+            Price = Random.Shared.NextInt64(index * 100),
+            CategoryID = categories[index < 3 ? 1 : 2].CategoryID
+        })
+        .ToArray();
+    }
+}
+
+```
+
+### Test : 
+
