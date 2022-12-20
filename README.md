@@ -221,4 +221,18 @@ public class APIController : ControllerBase
 ```
 
 ### Test : 
+#### Swagger :
 
+![image](https://user-images.githubusercontent.com/84138772/208627233-d1a69cd1-d570-40b4-94f5-984e25f0d1f7.png)
+
+#### Schemas :
+
+![image](https://user-images.githubusercontent.com/84138772/208627331-8c9f27d3-6a2e-4cef-9dcb-e10b2d783c4d.png)
+
+#### API :
+![image](https://user-images.githubusercontent.com/84138772/208627631-fd0beef0-3cd2-4df7-92eb-bff4c3e477aa.png)
+
+
+#### WeatherForecast
+
+![image](https://user-images.githubusercontent.com/84138772/208627555-7aed7e12-42b5-48a8-b42f-a587e4f190a4.png)
