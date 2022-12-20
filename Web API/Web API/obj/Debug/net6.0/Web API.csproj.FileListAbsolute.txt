@@ -1,0 +1,32 @@
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\bin\Debug\net6.0\appsettings.Development.json
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\bin\Debug\net6.0\appsettings.json
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\bin\Debug\net6.0\Web API.exe
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\bin\Debug\net6.0\Web API.deps.json
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\bin\Debug\net6.0\Web API.runtimeconfig.json
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\bin\Debug\net6.0\Web API.dll
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\bin\Debug\net6.0\Web API.pdb
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\bin\Debug\net6.0\Microsoft.OpenApi.dll
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\bin\Debug\net6.0\Swashbuckle.AspNetCore.Swagger.dll
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerGen.dll
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\bin\Debug\net6.0\Swashbuckle.AspNetCore.SwaggerUI.dll
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\Web API.csproj.AssemblyReference.cache
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\Web API.GeneratedMSBuildEditorConfig.editorconfig
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\Web API.AssemblyInfoInputs.cache
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\Web API.AssemblyInfo.cs
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\Web API.csproj.CoreCompileInputs.cache
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\Web API.MvcApplicationPartsAssemblyInfo.cs
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\Web API.MvcApplicationPartsAssemblyInfo.cache
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\staticwebassets\msbuild.Web API.Microsoft.AspNetCore.StaticWebAssets.props
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\staticwebassets\msbuild.build.Web API.props
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\staticwebassets\msbuild.buildMultiTargeting.Web API.props
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\staticwebassets\msbuild.buildTransitive.Web API.props
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\staticwebassets.pack.json
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\staticwebassets.build.json
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\staticwebassets.development.json
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\scopedcss\bundle\Web API.styles.css
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\Web API.csproj.CopyComplete
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\Web API.dll
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\refint\Web API.dll
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\Web API.pdb
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\Web API.genruntimeconfig.cache
+D:\cours\dotNet\Activité Pratique Dot Net\Web API\Web API\obj\Debug\net6.0\ref\Web API.dll
